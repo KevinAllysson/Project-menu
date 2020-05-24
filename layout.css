@@ -1,0 +1,119 @@
+* {
+    margin: 5px;
+    padding: 0px;
+  }
+  body {
+    margin: 100px;
+    margin-left: 260px;
+  }
+  #menu {
+    border: 3px solid grey;
+    border-radius: 30%;
+    outline: none;
+  }
+  #menu:hover {
+    background-color: Silver;
+  }
+  .M {
+    color: red;
+    float: left;
+    padding: 2px;
+    font-size: 16px;
+  }
+  .M:hover {
+    font-weight: bold;
+  }
+  #menu:hover {
+    cursor: pointer;
+    border: 3px solid black;
+  }
+  nav {
+    display: inline-grid;
+  }
+  #face:hover,
+  #youtube:hover,
+  #twitter:hover,
+  #linkedin:hover,
+  #netflix:hover,
+  #amazon:hover,
+  #ifood:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 25px DeepSkyBlue;
+    border: 2px solid LightSkyBlue;
+    background-color: SkyBlue;
+    font-weight: bold;
+    width: 75px;
+    height: 75px;
+  }
+  #face {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    outline: none;
+    border: 2px solid lightgrey;
+    transform: translateX(15px);
+  }
+  #youtube {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    outline: none;
+    border: 2px solid lightgrey;
+    transform: translateX(65px);
+    margin-top: -10px;
+  }
+  #twitter {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    outline: none;
+    border: 2px solid lightgrey;
+    transform: translateX(-5px);
+    margin-top: -10px;
+  }
+  #linkedin {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    outline: none;
+    border: 2px solid lightgrey;
+    margin-top: -10px;
+    transform: translateX(-90px);
+    margin-top: -60px;
+  }
+  #netflix {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    outline: none;
+    border: 2px solid lightgrey;
+    margin-top: -10px;
+    transform: translateX(-175px);
+    margin-top: -90px;
+  }
+  #amazon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    outline: none;
+    border: 2px solid lightgrey;
+    margin-top: -10px;
+    transform: translateX(-245px);
+    margin-top: -150px;
+  }
+  #ifood {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    outline: none;
+    border: 2px solid lightgrey;
+    margin-top: -10px;
+    transform: translateX(-195px);
+    margin-top: -220px;
+  }
+  
+  a:link {
+    text-decoration: none;
+    color: black;N
+  }
+  
